@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6124154D1A679E4D00F410BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6124154C1A679E4D00F410BF /* main.c */; };
+		612415561A67A19600F410BF /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 612415551A67A19600F410BF /* List.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		612415491A679E4D00F410BF /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		6124154C1A679E4D00F410BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		612415541A679F1300F410BF /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		612415551A67A19600F410BF /* List.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		6124154B1A679E4D00F410BF /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				612415531A679EED00F410BF /* List */,
 				6124154C1A679E4D00F410BF /* main.c */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		612415531A679EED00F410BF /* List */ = {
+			isa = PBXGroup;
+			children = (
+				612415541A679F1300F410BF /* List.h */,
+				612415551A67A19600F410BF /* List.c */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6124154D1A679E4D00F410BF /* main.c in Sources */,
+				612415561A67A19600F410BF /* List.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +246,7 @@
 				612415521A679E4D00F410BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
